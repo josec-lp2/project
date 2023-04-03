@@ -1,0 +1,144 @@
+.toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 16px;
+    border-bottom: 1px solid #000000;
+    border-top: 1px solid #000000;
+    margin-left:-8px ;
+    margin-right:-7px ;
+  }
+  
+  .titley{
+    font-size: 44px;
+    color: #000000;
+    letter-spacing: 5px;
+    margin-left: 280px;
+
+
+
+  }
+  #logo{
+    width: 200px;
+    margin-left: 50px;
+    margin-top: -120px;
+    border-radius: 20px;
+    box-shadow: 0 0 8px 1px #000000;
+
+  }
+  #top{
+    width: 1470px;
+    margin-left: -10px;
+
+  }
+  .buttons {
+    display: flex;
+   gap: 16px;
+
+  }
+  #headiv{
+background-color: #f0eded;
+padding:1px;
+margin-top: -8.48px;
+margin-left: -10px;
+margin-right: -8px;
+
+  }
+  .toolbar-button {
+    background-color: #f0eded;
+    color: #c559b0;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 16px;
+    cursor: pointer;
+    font-family: Consolas, monaco, monospace;
+    width: 200px;
+    font-weight:bold ;
+    box-shadow: 0 0 8px 1px #000000;
+  }
+  
+  .toolbar-button:hover {
+    background-color: #ffe298;
+  }
+  .toolbar-button.active {
+    text-decoration: underline;
+  }
+body {
+    font-family:
+    Consolas, monaco, monospace;
+
+}
+#search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:800px;
+    margin-top:-120px;
+    margin-bottom:60px;
+  }
+
+  #search-box {
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    height: 40px;
+    font-size: 16px;
+    background-color: #f2f2f2;
+    font-family:Consolas, monaco, monospace;
+  }
+
+  #clicsearch {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    background-color: #c559b0;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-family:Consolas, monaco, monospace;
+  }
+  .catalog {
+    padding: 0;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 3rem;
+  }
+  .product-box-image {
+    position: relative;
+  }
+  
+  .product-box-image .product-image {
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px 1px #000000;
+
+  }
+  
+  
+  
+  .product-name {
+    font-size: 20px;
+    margin: 1rem 0 0;
+    text-align: left;
+    white-space: nowrap ;
+  }
+  
+  .product-price {
+    height: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+
+  
+ 
